@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EditKaro Portfolio - View our video editing and social media marketing work">
+    <meta name="keywords" content="video editing portfolio, social media marketing examples, content creation samples">
+    <title>Portfolio - EditKaro.in</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>EditKaro<span>.in</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore our diverse range of video editing and marketing projects</p>
+        </div>
+    </section>
+
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="short-form">Short Form</button>
+                <button class="filter-btn" data-filter="long-form">Long Form</button>
+                <button class="filter-btn" data-filter="gaming">Gaming</button>
+                <button class="filter-btn" data-filter="football">Football Edits</button>
+                <button class="filter-btn" data-filter="ecommerce">eCommerce Ads</button>
+                <button class="filter-btn" data-filter="documentary">Documentary</button>
+                <button class="filter-btn" data-filter="color-grading">Color Grading</button>
+                <button class="filter-btn" data-filter="anime">Anime</button>
+                <button class="filter-btn" data-filter="ads">Ads</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-gallery">
+        <div class="container">
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Short Form Videos -->
+                <div class="portfolio-item" data-category="short-form" id="short-form">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Short Form Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Instagram Reel</h3>
+                        <p>Engaging short-form content for brand awareness</p>
+                        <span class="category-tag">Short Form</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="short-form">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Short Form Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>TikTok Video</h3>
+                        <p>Viral-worthy content with trending audio</p>
+                        <span class="category-tag">Short Form</span>
+                    </div>
+                </div>
+
+                <!-- Long Form Videos -->
+                <div class="portfolio-item" data-category="long-form" id="long-form">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Long Form Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Product Review</h3>
+                        <p>In-depth analysis and review of tech products</p>
+                        <span class="category-tag">Long Form</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="long-form">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Long Form Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Tutorial Series</h3>
+                        <p>Educational content with detailed explanations</p>
+                        <span class="category-tag">Long Form</span>
+                    </div>
+                </div>
+
+                <!-- Gaming Videos -->
+                <div class="portfolio-item" data-category="gaming" id="gaming">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Gaming Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Gameplay Highlights</h3>
+                        <p>Action-packed gaming moments with effects</p>
+                        <span class="category-tag">Gaming</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="gaming">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Gaming Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Esports Montage</h3>
+                        <p>Competitive gaming highlights with synchronized music</p>
+                        <span class="category-tag">Gaming</span>
+                    </div>
+                </div>
+
+                <!-- Football Edits -->
+                <div class="portfolio-item" data-category="football" id="football">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Football Edit 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Player Highlights</h3>
+                        <p>Showcasing the best moments of football stars</p>
+                        <span class="category-tag">Football</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="football">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Football Edit 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Match Highlights</h3>
+                        <p>Key moments from important matches with commentary</p>
+                        <span class="category-tag">Football</span>
+                    </div>
+                </div>
+
+                <!-- eCommerce Ads -->
+                <div class="portfolio-item" data-category="ecommerce" id="ecommerce">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="eCommerce Ad 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Product Showcase</h3>
+                        <p>Highlighting product features and benefits</p>
+                        <span class="category-tag">eCommerce</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="eCommerce Ad 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Sale Announcement</h3>
+                        <p>Promotional video for seasonal sales</p>
+                        <span class="category-tag">eCommerce</span>
+                    </div>
+                </div>
+
+                <!-- Documentary Style -->
+                <div class="portfolio-item" data-category="documentary" id="documentary">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Documentary 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Brand Story</h3>
+                        <p>Telling the journey of a brand's development</p>
+                        <span class="category-tag">Documentary</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="documentary">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Documentary 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Behind the Scenes</h3>
+                        <p>Showcasing the process behind a product</p>
+                        <span class="category-tag">Documentary</span>
+                    </div>
+                </div>
+
+                <!-- Color Grading -->
+                <div class="portfolio-item" data-category="color-grading" id="color-grading">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Color Grading 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Cinematic Look</h3>
+                        <p>Before and after color grading comparison</p>
+                        <span class="category-tag">Color Grading</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="color-grading">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Color Grading 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Mood Enhancement</h3>
+                        <p>Creating specific moods through color grading</p>
+                        <span class="category-tag">Color Grading</span>
+                    </div>
+                </div>
+
+                <!-- Anime Videos -->
+                <div class="portfolio-item" data-category="anime" id="anime">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Anime Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Anime AMV</h3>
+                        <p>Anime music video with synchronized effects</p>
+                        <span class="category-tag">Anime</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="anime">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Anime Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Character Spotlight</h3>
+                        <p>Highlighting specific anime characters</p>
+                        <span class="category-tag">Anime</span>
+                    </div>
+                </div>
+
+                <!-- Ads -->
+                <div class="portfolio-item" data-category="ads" id="ads">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Ad 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Brand Awareness</h3>
+                        <p>Introducing a brand to new audiences</p>
+                        <span class="category-tag">Ads</span>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ads">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Ad 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="portfolio-details">
+                        <h3>Service Promotion</h3>
+                        <p>Highlighting the benefits of a service</p>
+                        <span class="category-tag">Ads</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Videos?</h2>
+                <p>Let's discuss your project and create something amazing together</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>EditKaro<span>.in</span></h2>
+                    <p>Professional Video Editing & Social Media Marketing</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Video Editing</li>
+                        <li>Color Grading</li>
+                        <li>Social Media Marketing</li>
+                        <li>Ad Creation</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@editkaro.in</li>
+                        <li><i class="fas fa-phone"></i> +91 9876543210</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Mumbai, India</li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EditKaro.in. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
